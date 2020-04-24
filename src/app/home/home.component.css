@@ -1,0 +1,28 @@
+
+.fbox{
+    margin-top:20px;
+    height:100px;
+}
+
+.task{
+    border:2px solid #F0F0F0;
+    height: 320px;
+}
+.text1{
+    margin-top:20px;
+}
+.scrap{
+    margin-left:5px;
+    border:2px solid #F0F0F0;
+    
+}
+.fbox{
+    
+    height: 519px;
+}
+.date{
+    border:2px solid red;
+}
+.action{
+    font-weight:bold;
+}
