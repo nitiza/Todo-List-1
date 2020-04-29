@@ -1,46 +1,71 @@
+<div class="container cbox">
+  <div class="row">
+    <div class="col-1">
+        <h1>Nitiza</h1>
+    </div>
+  </div>
+</div>
 
 
+<div  class="container mt-4">
+  <div class="row">
+    <div class="col">
+    <h2 class="border-bottom">TODO List</h2>
+    </div>
+  </div>
+</div>
 
-<div class="container fbox">
-    <div class="row">
+<div class="container fbox ">
+    <div class="row items">
         <div class="col-5 ">
-            <h2 class="border-bottom">TODO List</h2>
-            <div class="row border-bottom " >
-                <div class="col-8 "><p class="font-weight-bold">Description</p>
-                    one way package error
+            <div class="row border-bottom border-top" >
+                <div class="col-5 "><p class="font-weight-bold">Description</p>
                 </div>
-                <div class="col-2 "><p class="font-weight-bold">Date</p>
-                    2017-11-23
+                <div class="col-3"><p class="font-weight-bold">Assigned</p>
                 </div>
-                <div class="col-2">Action
-                    <button type="button" class="btn btn-link border-right ">done</button>
-                    <button type="button" class="btn btn-link border-right">edit</button>
-                    <button type="button" class="btn btn-link ">delete</button>
-
+                <div class="col-2"><p class="font-weight-bold">Date</p>
+                </div>
+                <div class="col-2"><p class="font-weight-bold">Action</p>
                 </div>
             </div>
-        </div>
-
-        <div class="col-3  ml-2 task">
+            <ul id="the-ul">
+             <!-- <li>
+            <div class="row ">
+              <div class="col-8"> hjh </div>
+              <div class="col-2"> jkjhjhj</div>
+              <div class="col-2">
+                <button type="button" class="btn btn-link border-right ">done</button>
+                 <button type="button" class="btn btn-link border-right">edit</button>
+                 <button type="button" class="btn btn-link ">delete</button>
+              
+             </div>
+            </div>
+            </li>-->
+            
+            </ul>
+          </div>
+        <div class="col-3  ml-3 task">
             <h2 class="text1">Add new TODO</h2>
-            <form>
+            <form id="form">
                 <div class ="add"  >
                 <div class="form-group">
                   
-                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Description..">
+                  <input type="text" id="description"  class="form-control"  placeholder="Description..">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Assigned to..">
+                  <input type="text" id="assigned" class="form-control"   placeholder="Assigned to.. ">
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Date..">
+                    <input type="text" id="date" class="form-control"   placeholder="Date..yyyy-mm-dd">
                   </div>
-                  <button type="button" class="btn btn-primary mr-1">Add</button>
-                  <button type="button" class="btn btn-primary">Reset</button>
+                  <button type="button"  id="btnAdd" class="btn btn-primary mr-1" >Add</button>
+                  
+                  <button type="button" id="btnReset" class="btn btn-primary ">Reset</button>
+                  <p id="demo2"></p>
                 </div>
               </form>
         </div>
-        <div class="col-3 scrap">
+        <div class="col-3  ml-3 mr-0 scrap">
             <h2 class="text1">Scrap Pad</h2>
             <div class="input-group h-50">
                 
@@ -50,4 +75,5 @@
 
         </div>
     </div>  
-</div>
+  </div>
+  
